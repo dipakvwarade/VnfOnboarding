@@ -1,0 +1,18 @@
+Heat Components
+
+Heat Cli - CLI to interact with heat.
+
+heat-api - Offers Rest API which is openstack native.
+
+heat-api-cfn  - Offer API that is comparible with AWS CloudFormtion.
+
+heat-engine   - Core components of Orchestration service of Openstack.
+
+Heat Orchestration Template (HOT) - 
+	New templte format developed as an alternative to the Cloud Formation template.
+[Logical Arch here]
+
+
+
+
+
