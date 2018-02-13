@@ -12,4 +12,14 @@ Management plane -
   
   OVS-vswitchd  - communicate with controller using openFlow, communicate with ovsDB-server using OVSDB protocol, it communicate with kernel module over netlink and with system through the netdev interface.
   openvswitch_mod.ko - ovs kernel module, Handle packet switching, lookups and tunneling
+  ovsdb-server - OVS configuration db
+  
+  ovs-vsctl - configres the ovs-vswitchd interfacing with config db. create and manage bridges, ports, interfaces.
+  ovs-ofctl - manage openflow switches, flow table .
+  ovs-appctl - interact with vswitchd directly and print the output on standard o/p.
+  ovs-dpctl - manage data paths.
+  
+  
+  
+  
   
