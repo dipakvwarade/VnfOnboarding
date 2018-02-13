@@ -1,1 +1,15 @@
-. Namespaces are networking constructs in Linux that allow you to create a copy of the TCP/IP network stack all the way from the Ethernet interfaces (L2), routing tables, and so on, such that each instance is isolated from the other.
+Namespaces
+  are networking constructs in Linux that allow you to create a copy of the TCP/IP network stack all the way from the Ethernet interfaces (L2), routing tables, and so on, such that each instance is isolated from the other.
+Data plane/forwarding plane -
+  move bits (which form packets) from incomming to outgoing port.
+Control plane - 
+  learn and gather the information about network using various protocols, which will be used by data plane to direct the traffic.
+Management plane -
+  The ability to manage and control the networking device is the responsibility of management plane.it uses CLI, SNMP, REST API etc.
+  
+  
+  OVS components
+  
+  OVS-vswitchd  - communicate with controller using openFlow, communicate with ovsDB-server using OVSDB protocol, it communicate with kernel module over netlink and with system through the netdev interface.
+  openvswitch_mod.ko - ovs kernel module, Handle packet switching, lookups and tunneling
+  
