@@ -1,0 +1,1 @@
+. Namespaces are networking constructs in Linux that allow you to create a copy of the TCP/IP network stack all the way from the Ethernet interfaces (L2), routing tables, and so on, such that each instance is isolated from the other.
