@@ -1,0 +1,15 @@
+# setting permissions for /var/www/mysite.com
+
+# read permission ONLY for the owner 
+chmod -R /var/www/mysite.com 400 
+
+# add execute for folders only
+find /var/www/mysite.com -type d -exec chmod -R u+x {} \;
+
+# allow file uploads 
+chmod -R /var/www/mysite.com/public/uploads u+w
+
+# allow log writing to this folder
+chmod -R /var/www/mysite.com/logs/ 
+
+https://stackoverflow.com/questions/21346486/how-to-show-directory-index-in-apache-2-4-with-custom-document-root
